@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2017-01-20 11:12:49
+-- Generation Time: 2017-01-20 13:31:37
 -- 服务器版本： 5.6.17
 -- PHP Version: 5.5.12
 
@@ -4776,7 +4776,7 @@ CREATE TABLE IF NOT EXISTS `ocenter_member` (
 --
 
 INSERT INTO `ocenter_member` (`uid`, `nickname`, `sex`, `birthday`, `qq`, `login`, `reg_ip`, `reg_time`, `last_login_ip`, `last_login_time`, `status`, `last_login_role`, `show_role`, `signature`, `pos_province`, `pos_city`, `pos_district`, `pos_community`, `score1`, `score2`, `score3`, `score4`, `con_check`, `total_check`) VALUES
-(1, 'admin', 0, '0000-00-00', '', 1, 0, 1484836514, 0, 1484836514, 1, 1, 1, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+(1, 'admin', 0, '0000-00-00', '', 1, 0, 1484915144, 0, 1484915144, 1, 1, 1, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -5216,7 +5216,7 @@ CREATE TABLE IF NOT EXISTS `ocenter_role` (
 --
 
 INSERT INTO `ocenter_role` (`id`, `group_id`, `name`, `title`, `description`, `user_groups`, `invite`, `audit`, `sort`, `status`, `create_time`, `update_time`) VALUES
-(1, 0, 'default', '普通用户', '普通用户', '1', 0, 0, 0, 1, 1484836514, 1484836514);
+(1, 0, 'default', '普通用户', '普通用户', '1', 0, 0, 0, 1, 1484915144, 1484915144);
 
 -- --------------------------------------------------------
 
@@ -5516,7 +5516,7 @@ CREATE TABLE IF NOT EXISTS `ocenter_ucenter_member` (
 --
 
 INSERT INTO `ocenter_ucenter_member` (`id`, `username`, `password`, `email`, `mobile`, `reg_time`, `reg_ip`, `last_login_time`, `last_login_ip`, `update_time`, `status`, `type`) VALUES
-(1, 'admin', 'fd65eaac8f72938d271dd16b1cbe5ce1', 'admin@admin.com', '', 1484836514, 2130706433, 1484836514, 2130706433, 1484836514, 1, 1);
+(1, 'admin', '981f0b140885d2b7ff3a83dcc7d5ec2b', 'admin@admin.com', '', 1484915144, 2130706433, 1484915144, 2130706433, 1484915144, 1, 1);
 
 -- --------------------------------------------------------
 
